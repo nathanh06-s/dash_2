@@ -9,6 +9,7 @@ dash-bootstrap-components==1.7.1
 dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
+et_xmlfile==2.0.0
 Flask==3.0.3
 gunicorn==23.0.0
 idna==3.10
@@ -19,6 +20,7 @@ MarkupSafe==3.0.2
 narwhals==1.41.0
 nest-asyncio==1.6.0
 numpy==2.2.6
+openpyxl==3.1.5
 packaging==25.0
 pandas==2.2.3
 plotly==6.1.2
