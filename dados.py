@@ -83,7 +83,11 @@ for nome_base, arquivo in arquivos.items():
         print(f"[ERRO] Erro ao ler {arquivo}: {e}")
 
 # Junta tudo num único DataFrame
-df_geral = pd.concat(lista_df, ignore_index=True)
+if lista_df:
+    df_geral = pd.concat(lista_df, ignore_index=True)
+else:
+    print("[ERRO FATAL] Nenhum dataframe foi carregado. Verifique os arquivos .xlsx.")
+    df_geral = pd.DataFrame()  # previne falha total no app.py
 
 # ✅ Forçar conversão da coluna "Início" para datetime no df_geral final
 df_geral["Início"] = pd.to_datetime(df_geral["Início"], dayfirst=True, errors="coerce")
