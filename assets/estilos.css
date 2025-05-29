@@ -1,0 +1,82 @@
+body {
+    background-color: #0f1117;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+}
+
+.card-title {
+    color: #ccc !important;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.card-body h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dash-table-container .dash-spreadsheet-container {
+    border-radius: 12px !important;
+    overflow: hidden;
+}
+
+.dash-table-container table {
+    background-color: #1a1c23 !important;
+    color: white !important;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.dash-table-container th {
+    background-color: #272a35 !important;
+    color: #ddd !important;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #444 !important;
+}
+
+.dash-table-container td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #333 !important;
+}
+
+.card {
+    background: #1a1c23 !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
+.Select-control, .Select-menu-outer {
+    background-color: #1e1f26 !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+.Select--multi .Select-value {
+    background-color: #2d303b !important;
+    color: white !important;
+}
+
+.Select-placeholder {
+    color: #aaa !important;
+}
+
+.grafico-box {
+    height: 330px;
+}
+
+.grafico-titulo {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+}
